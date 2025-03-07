@@ -1,0 +1,93 @@
+# Created by Ultra Librarian 8.3.366 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "CONN_10118192-0002LF_AMP")
+Pad (Name "1") (Location -51.1811, 86.76772308) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 53) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -25.5905, 86.76772308) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 53) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location 0, 86.76772308) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 53) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location 25.5905, 86.76772308) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 53) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location 51.1811, 86.76772308) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 53) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location -122.0472, 81.84642308) (Surface True) (Rotation 90) (ExpandMask -41.5) (ExpandPaste -41.5)
+PadShape (Size 83, 63) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "7") (Location 122.0472, 81.84642308) (Surface True) (Rotation 90) (ExpandMask -41.5) (ExpandPaste -41.5)
+PadShape (Size 83, 63) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "8") (Location -149.6063, -18.54727692) (Surface True) (Rotation 90) (ExpandMask -37.5) (ExpandPaste -37.5)
+PadShape (Size 71, 75) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "9") (Location 149.6063, -18.54727692) (Surface True) (Rotation 90) (ExpandMask -37.5) (ExpandPaste -37.5)
+PadShape (Size 71, 75) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "10") (Location -47.2441, -18.54727692) (Surface True) (Rotation 90) (ExpandMask -37.5) (ExpandPaste -37.5)
+PadShape (Size 75, 75) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "11") (Location 47.2441, -18.54727692) (Surface True) (Rotation 90) (ExpandMask -37.5) (ExpandPaste -37.5)
+PadShape (Size 75, 75) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -195.10629272, 123.34646225) (End -195.10629272, -113.49997711) (Layer Mechanical15) 
+Line (Width 6) (Start -195.10629272, -113.49997711) (End 195.10629272, -113.49997711) (Layer Mechanical15) 
+Line (Width 6) (Start 195.10629272, -113.49997711) (End 195.10629272, 123.34646225) (Layer Mechanical15) 
+Line (Width 6) (Start 195.10629272, 123.34646225) (End -195.10629272, 123.34646225) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-195.10629272, 123.34646225)
+Point (-195.10629272, -113.49997711)
+Point (195.10629272, -113.49997711)
+Point (195.10629272, 123.34646225)
+EndPolygon
+Line (Width 6) (Start -163.5, -108.49997711) (End 163.5, -108.49997711) (Layer TopOverlay) 
+Line (Width 6) (Start 163.5, -108.49997711) (End 163.5, -67.1472773) (Layer TopOverlay) 
+Line (Width 6) (Start -163.5, -67.1472773) (End -163.5, -108.49997711) (Layer TopOverlay) 
+Arc (Width 20) (Radius 15) (Location -233.5, 86.76772308) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -158.5, -103.49997711) (End 158.5, -103.49997711) (Layer Mechanical13) 
+Line (Width 1) (Start 158.5, -103.49997711) (End 158.5, 103.50000381) (Layer Mechanical13) 
+Line (Width 1) (Start 158.5, 103.50000381) (End -158.5, 103.50000381) (Layer Mechanical13) 
+Line (Width 1) (Start -158.5, 103.50000381) (End -158.5, -103.49997711) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location -51.18109894, 161.76772308) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location -233.5, 86.76772308) (StartAngle 0) (EndAngle 360) (Layer BottomOverlay) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "10118192-0002LF") (PartCount 1) (DesPrefix "J?")
+Pin (Location 200, 0) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, -100) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 200, -200) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 200, -300) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "4") (Name Hidden "4") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 200, -400) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "5") (Name Hidden "5") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Line (Width 5) (Start 400, 0) (End 200, 0) (Part 1)
+Line (Width 5) (Start 400, -100) (End 200, -100) (Part 1)
+Line (Width 5) (Start 400, -200) (End 200, -200) (Part 1)
+Line (Width 5) (Start 400, -300) (End 200, -300) (Part 1)
+Line (Width 5) (Start 400, -400) (End 200, -400) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, 33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -66.6667) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -166.6667) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -266.6667) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -366.6667) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, -33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -133.3333) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -233.3333) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -333.3333) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -433.3333) (Part 1)
+Rectangle (Width 5) (Start 200, -500) (End 500, 100) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Amphenol ICC") (Part 1)
+Parameter (Name "RefDes") (Location 350, 250) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 400, -200) (Height 82) (Rotation 0) (Justification Center) (Value "Type") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "CONN_10118192-0002LF_AMP")
+EndComponent
+EndComponents
